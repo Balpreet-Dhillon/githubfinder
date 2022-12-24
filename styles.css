@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500&display=swap');
+
+body{
+
+    min-height: 100vh;
+    background-color: rgb(24, 24, 24);
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.badge{
+
+    --bs-badge-color: rgb(255, 255, 255);
+    --bs-badge-border-radius: 1.078em;;
+    background-color: #593196;
+    margin-top: 1rem;
+    
+}
+
+.alert{
+
+    border-radius: 10px;
+    position: relative;
+    bottom: -1.5rem;
+
+}
+
+#searchUser{
+
+    background-color: lightgray;
+
+}
+
+.list-group-item{
+
+    color: black;
+    background-color: white;
+}
+
+#profile > div.card.card-body > div > div.col-md-3 > a{
+
+    width: 100%;
+
+}
+
+#profile > div.card.card-body > div > div.col-md-3 > img{
+
+    width: 100%;
+    height: auto;
+
+}
+
+#profile > h3{
+
+    padding-top: 3rem;
+    color: white;
+
+}
+
+#repos > div{
+
+    background-color: rgb(38, 38, 38);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+
+}
+
+body > div > div.search.card.card-body{
+
+    color: rgb(211, 211, 211);
+    background-color: rgb(38, 38, 38);
+    margin-top: 4rem;
+    padding: 3rem;
+    border-radius: 10px;
+
+}
+
+#profile > div.card.card-body{
+
+    color: rgb(38, 38, 38);
+    border-radius: 10px;
+    margin-top: 1.75rem;
+
+}
+
+#repos > div > div > div > a{
+
+    color: rgb(211, 211, 211);
+    position: relative;
+    bottom: -0.75rem;
+   
+}
+
+#repos > div > div > div > a:hover{
+
+    color: rgb(96, 96, 96);
+    transition: 0.15s;
+    
+}
+
+#profile > div.card.card-body{
+
+    background-color: rgb(38, 38, 38);
+
+}
+
+#profile > div.card.card-body > div > div.col-md-9 > ul > li{
+
+    background-color: rgb(28, 28, 28);
+    color: rgb(211, 211, 211);
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+    border-radius: 10px;
+
+}
+
+footer{
+
+    color: white;
+    font-weight: 100;
+    background-color: rgb(38, 38, 38);
+    position: sticky;
+    top: 100%;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-top: 10rem;
+
+}
+
